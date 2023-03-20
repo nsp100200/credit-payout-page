@@ -1,0 +1,309 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1012px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column__info{
+    max-width: 472px;
+}
+
+.column__payout-container{
+    max-width: 400px;
+}
+
+.image__column{
+    padding-top: 27px;
+    align-items: flex-start;
+    padding-bottom: 19px;
+}
+
+.tax{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 23px;
+}
+
+.tax__info{
+    padding: 0 7px 0 3px;
+}
+
+.column__info-container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.taxes-charges{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+.delivery__fee{
+    margin-bottom: 0;
+}
+
+.bill__total{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.choose__card{
+    display: flex;
+    justify-content: space-between;
+}
+.visa, .mcard, .verve{
+    border:  1px solid rgba(0, 0, 0, 0.31);
+    border-radius: 5px;
+}
+
+.visa{
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.visa img{
+    align-items: center;
+}
+
+.mcard{
+    padding: 9px 35px;
+    cursor: pointer;
+}
+
+.verve{
+    padding: 14px 35px;
+    cursor: pointer;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    width: 311px;
+    list-style-type: none;
+}
+.subtitle a{
+    text-decoration: none;
+}
+
+.column__info-container h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+.brand{
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.price{
+    margin: 0;
+    padding-bottom: 23px;
+}
+
+.tax__info p{
+    
+    margin: 21;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill__total p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #DD4F1A;
+}
+
+.checkout{
+    padding-top: 81px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #222222;
+    padding-bottom: 7px;
+}
+
+.checkout__title{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 27px;
+}
+
+.card__type{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+    margin: 0;
+    padding-bottom: 7px;
+    
+}
+
+.visa, .mcard, .verve{
+    background: transparent;
+    transition: .2s;
+}
+
+.visa:hover, .mcard:hover, .verve:hover{
+    background: #e0e0e0;
+    transition: .2s;
+}
+
+.choose__card{
+    padding-bottom: 38px;
+}
+
+.cardholder{
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 9px;
+    color: #222222;
+}
+
+.cardholder-name{
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 31px;
+}
+
+.card-number{
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 36px;
+}
+
+.number{
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 9px;
+    color: #222222; 
+}
+
+.exp-date, .cvv-code {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #222222;
+}
+
+.input__date, .input__password{
+    height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 23px;
+}
+
+.checkbox{
+    accent-color: #DD4F1A;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 43px;
+}
+
+.pay{
+    border: none;
+    width: 100%;
+    height: 37px;
+    background: #DD4F1A;
+    border-radius: 3px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 28px;
+    transition: .2s;
+}
+
+.pay:active{
+    background: #ec764a;
+    transition: .2s;
+}
+
+.subtitle__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 233px;
+    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    
+}
+
+.subtitle__list li{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.subtitle__list p{
+    margin: 0;
+}
+
+.subtitle{
+    width: 210px;
+    margin: 0 auto;
+}
+
+.subtitle a{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
